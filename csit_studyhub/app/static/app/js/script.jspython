@@ -1,0 +1,9 @@
+function searchFunction() {
+    let input = document.getElementById("searchInput").value;
+
+    if (input == "") {
+        alert("Please enter something!");
+    } else {
+        alert("You searched: " + input);
+    }
+}
